@@ -45,7 +45,7 @@ target[3] = size
 ## open(target[2])
 
 Client -> Server
-->  call read write By fd ( ref cnt )
+->  call read write By fd
 ## read(fd, buf);
 ## write(4, buf); // client fd
 
